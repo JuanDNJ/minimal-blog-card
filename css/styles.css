@@ -23,8 +23,7 @@ body {
 
 
 .jv-card{
-    max-width: 336px;
-    height: min-content;
+    width: 336px;
     background: white;
     color: #6C727F;
     border-radius: 20px;
