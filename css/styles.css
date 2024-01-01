@@ -26,10 +26,12 @@ body {
     display: grid;
     background: #FAFAF9;
     place-content: center;
+   
 }
 
 .jv-card {
     width: 336px;
+    font-size: 14px;
     background: white;
     color: #6C727F;
     border-radius: 20px;
