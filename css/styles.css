@@ -51,13 +51,6 @@ body {
             padding: 6px 16px;
             font-size: smaller;
             font-weight: 600;
-            transition: color, box-shadow 300ms linear ;
-            /* &:hover{
-                user-select: none;
-                background: #f3eaff;
-                box-shadow: 0 0 .5px .5px#883AE1;
-                color: #ac7fdf;
-            } */
         }
         
     }
@@ -66,11 +59,14 @@ body {
         display: flex;
         flex-direction: column;
         gap: 6px;
+        
          & .title {
             color: #20293A;
             font-size: medium;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
          }
-        /* border: 1px solid #333; */
     }
     & .footer{
         margin: 20px 0;
