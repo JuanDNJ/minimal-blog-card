@@ -92,3 +92,12 @@ body {
 }
 
 
+@media screen and (min-width: 720px) {
+   
+
+    .flex-column  {
+        max-width: 640px;   
+    }
+
+   
+  }
