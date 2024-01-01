@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
 * {
     box-sizing: border-box;
 }
+
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -20,66 +28,58 @@ body {
     place-content: center;
 }
 
-
-
-.jv-card{
+.jv-card {
     width: 336px;
     background: white;
     color: #6C727F;
     border-radius: 20px;
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
-
-    & .header{
-        padding: 16px;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        padding-bottom: 16px;
-   
-        & img.photo{
-            width: 100%;
-            max-height: 152px;
-            border-radius: 20px;
-        }
-        & .key{
-            border-radius: 16px;
-            color: #883AE1;
-            background: #E6D6FC;
-            align-self: start;
-            padding: 6px 16px;
-            font-size: smaller;
-            font-weight: 600;
-            transition: color, box-shadow 300ms linear ;
-            /* &:hover{
-                user-select: none;
-                background: #f3eaff;
-                box-shadow: 0 0 .5px .5px#883AE1;
-                color: #ac7fdf;
-            } */
-        }
-        
-    }
-    & .content{
-        padding: 0 16px;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-         & .title {
-            color: #20293A ;
-         }
-        /* border: 1px solid #333; */
-    }
-    & .footer{
-        margin: 20px 0;
-        min-height: 50px;
-        border-top: 1px solid #e2e2e2;
-        display: flex;
-        flex-direction: column;
-        place-content: flex-start end ;
-        & .author{
-            padding-left: 16px;
-        }
-     }
 }
 
+.jv-card .header {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+}
 
+.header img.photo {
+    width: 100%;
+    max-height: 152px;
+    border-radius: 20px;
+}
+
+.header .key {
+    border-radius: 16px;
+    color: #883AE1;
+    background: #E6D6FC;
+    align-self: start;
+    padding: 6px 16px;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.jv-card .content {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.content .title {
+    color: #20293A;
+}
+
+.jv-card .footer {
+    margin: 20px 0;
+    min-height: 50px;
+    border-top: 1px solid #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    place-content: flex-start end;
+}
+
+.footer .author {
+    padding-left: 16px;
+}
