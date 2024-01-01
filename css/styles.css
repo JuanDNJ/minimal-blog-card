@@ -10,9 +10,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Add some styles for body*/
 body {
-    min-height: 100vh;
-    max-width: 1280px;
-    margin: 0 auto;
+    padding-top: 145px;
     color: #1c1d1d;
     font-family: 'Sora', sans-serif;
     line-height: 1.5;
