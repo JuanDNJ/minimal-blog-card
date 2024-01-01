@@ -29,7 +29,7 @@ body {
     background: white;
     color: #6C727F;
     border-radius: 20px;
-    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    box-shadow: 0px 30px 100px 0px rgba(60, 60, 61, 0.034);
 
     & .header{
         padding: 16px;
@@ -38,7 +38,7 @@ body {
         gap: 16px;
         padding-bottom: 16px;
    
-        & img.photo{
+        & .photo{
             width: 100%;
             max-height: 152px;
             border-radius: 20px;
@@ -46,17 +46,21 @@ body {
         & .key{
             border-radius: 16px;
             color: #883AE1;
-            background: #E6D6FC;
+            background-color: #E6D6FC;
             align-self: start;
             padding: 6px 16px;
             font-size: smaller;
             font-weight: 500;
             min-width: 4.5vw;
-            display: flex;
+            display: inline-flex;
             user-select: none;
             place-content: center;
+            transition: background-color, color,  300ms linear;
         }
-        
+        & .key:hover{
+            background-color: #efe7fa;
+            color: #a77adb;
+        }
     }
     & .content{
         padding: 0 16px;
