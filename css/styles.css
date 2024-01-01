@@ -23,6 +23,7 @@ body {
 
 
 .jv-card{
+    font-size: 14px;
     max-width: 336px;
     height: min-content;
     background: white;
@@ -66,7 +67,8 @@ body {
         flex-direction: column;
         gap: 6px;
          & .title {
-            color: #20293A ;
+            color: #20293A;
+            font-size: medium;
          }
         /* border: 1px solid #333; */
     }
